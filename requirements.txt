@@ -1,0 +1,14 @@
+# RL Snake Agent — Python Dependencies
+# Install with: pip install -r requirements.txt
+# Tested with Python 3.10+
+
+# Core ML
+torch>=2.0.0              # Deep Q-Network (DQN) — model, optimizer, tensors
+numpy>=1.24.0             # State vector construction
+
+# Game environment
+pygame>=2.5.0             # Snake game rendering and event loop
+
+# Training visualization
+matplotlib>=3.7.0         # Live training curve (score vs. mean score)
+ipython>=8.0.0            # display.clear_output() for live plot updates
